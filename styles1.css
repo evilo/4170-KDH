@@ -84,6 +84,19 @@
     background-color: rgba(0, 0, 0, 1);
 }
 
+.scroll_bar {
+    height: 200px;
+    width: 4px;
+    position: absolute;
+    left: 370px;
+    top: 325px;
+    background-color: rgba(0, 0, 0, 1);
+    border-top-left-radius: 1.3333333730697632px;
+    border-top-right-radius: 1.3333333730697632px;
+    border-bottom-left-radius: 1.3333333730697632px;
+    border-bottom-right-radius: 1.3333333730697632px;
+}
+
 .rectangle_2 {
     height: 2px;
     width: 120px;
@@ -150,8 +163,24 @@
     width: 59px;
     height: 108px;
     position: absolute;
-    left: 200px;
+    left: 190px;
     top: 325px;
+}
+
+.filter_by {
+    background-color: rgb(245, 233, 233);
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 250px;
+    top: 325px;
+    font-family: Nunito;
+    letter-spacing: 0;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: px;
 }
 
 .buoy_1 {
@@ -176,6 +205,69 @@
     top: 381px;
 }
 
+.line_wrapper_2 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 200px;
+    top: 381px;
+}
+
+.buoy_2 {
+    background-image: url(images/bx-buoy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.handicap_2 {
+    background-image: url(images/bx-handicap.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+}
+
+.bathroom_2 {
+    background-image: url(images/bathroom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+}
+
+.car_2 {
+    background-image: url(images/bx-car.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 105px;
+    top: 0px;
+}
+
+.red_flag_2 {
+    background-image: url(images/red_flag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+}
+
 .umbrella_3 {
     background-image: url(images/umbrella.jpg);
     background-repeat: no-repeat;
@@ -185,6 +277,36 @@
     position: absolute;
     left: 145px;
     top: 437px;
+}
+
+.line_wrapper_3 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 195px;
+    top: 437px;
+}
+
+.buoy_3 {
+    background-image: url(images/bx-buoy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.bathroom_3 {
+    background-image: url(images/bathroom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 35px;
+    top: 0px;
 }
 
 .location_pin {
@@ -227,6 +349,47 @@
     top: 520px;
 }
 
+.line_wrapper_4 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 185px;
+    top: 520px;
+}
+
+.buoy_4 {
+    background-image: url(images/bx-buoy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.bathroom_4 {
+    background-image: url(images/bathroom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+}
+
+.car_4 {
+    background-image: url(images/bx-car.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+}
+
 .umbrella_5 {
     background-image: url(images/umbrella.jpg);
     background-repeat: no-repeat;
@@ -236,6 +399,58 @@
     position: absolute;
     left: 130px;
     top: 576px;
+}
+
+.line_wrapper_5 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 180px;
+    top: 576px;
+}
+
+.buoy_5 {
+    background-image: url(images/bx-buoy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.shower_5 {
+    background-image: url(images/cil_shower.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+}
+
+.car_5 {
+    background-image: url(images/bx-car.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+}
+
+.red_flag_5 {
+    background-image: url(images/red_flag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 105px;
+    top: 0px;
 }
 
 .umbrella_6 {
@@ -249,6 +464,25 @@
     top: 632px;
 }
 
+.line_wrapper_6 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 190px;
+    top: 632px;
+}
+
+.buoy_6 {
+    background-image: url(images/bx-buoy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
 .umbrella_7 {
     background-image: url(images/umbrella.jpg);
     background-repeat: no-repeat;
@@ -258,6 +492,69 @@
     position: absolute;
     left: 150px;
     top: 688px;
+}
+
+.line_wrapper_7 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 200px;
+    top: 688px;
+}
+
+.buoy_7 {
+    background-image: url(images/bx-buoy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.shower_7 {
+    background-image: url(images/cil_shower.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+}
+
+.car_7 {
+    background-image: url(images/bx-car.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+}
+
+.boat_7 {
+    background-image: url(images/boat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 105px;
+    top: 0px;
+}
+
+.purple_flag_7 {
+    background-image: url(images/purple_flag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 140px;
+    top: 0px;
 }
 
 .navigation_bar_wrapper {
