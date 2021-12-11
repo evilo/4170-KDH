@@ -1253,6 +1253,17 @@
     left: 300px;
 }
 
+.circle_1 {
+    border-radius: 500px;
+    background-color: rgba(129.06718790531158, 182.80484676361084, 240.12499898672104, 1);
+    opacity: 0.30000001192092896;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 740px;
+    left: 215px;
+}
+
 .button_1 {
     font-size: 44px;
     color: rgb(255, 255, 255);
