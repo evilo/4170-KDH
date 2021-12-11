@@ -1046,14 +1046,93 @@
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 3px;
+    top: 3px;
 }
 
 .image_1 {
-    background-color: rgba(0, 0, 0, 1);
-    width: 25px;
-    height: 25px;
+    background-image: url(images/FAQ.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 2.5px;
+    top: 2.4999990463256836px;
+}
+
+.image_2 {
+    background-image: url(images/contact_info.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 2.5px;
+    top: 2.4999990463256836px;
+}
+
+.image_3 {
+    background-image: url(images/wheelchair.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 2.5px;
+    top: 2.4999990463256836px;
+}
+
+.image_4 {
+    background-image: url(images/transport_req.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 2.5px;
+    top: 2.4999990463256836px;
+}
+
+.image_5 {
+    background-image: url(images/jr_lifeguard.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 2.5px;
+    top: 2.4999990463256836px;
+}
+
+.image_6 {
+    background-image: url(images/comments.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 2.5px;
+    top: 2.4999990463256836px;
+}
+
+.image_7 {
+    background-image: url(images/application.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 2.5px;
+    top: 2.4999990463256836px;
+}
+
+.image_8 {
+    background-image: url(images/lifeguard_entry.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
     position: absolute;
     left: 2.5px;
     top: 2.4999990463256836px;
@@ -1161,4 +1240,155 @@
     text-align: center;
     font-size: 12px;
     letter-spacing: 0;
+}
+
+.circle {
+    border-radius: 500px;
+    background-color: rgba(129.06718790531158, 182.80484676361084, 240.12499898672104, 1);
+    opacity: 0.30000001192092896;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 740px;
+    left: 300px;
+}
+
+.button_1 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 64px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 748px;
+    left: 20px;
+    opacity: 0.0;
+}
+
+.button_3 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 64px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 748px;
+    left: 220px;
+    opacity: 0.0;
+}
+
+.button_4 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 64px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 748px;
+    left: 300px;
+    opacity: 0.0;
+}
+
+.button_2_1 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 325px;
+    left: 10px;
+    opacity: 0.0;
+}
+
+.button_2_2 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 365px;
+    left: 10px;
+    opacity: 0.0;
+}
+
+.button_2_3 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 405px;
+    left: 10px;
+    opacity: 0.0;
+}
+
+.button_2_4 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 520px;
+    left: 10px;
+    opacity: 0.0;
+}
+
+.button_2_5 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 560px;
+    left: 10px;
+    opacity: 0.0;
+}
+
+.button_2_6 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 610px;
+    left: 10px;
+    opacity: 0.0;
+}
+
+.button_2_7 {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+    border-style: none;
+    position: absolute;
+    top: 660px;
+    left: 10px;
+    opacity: 0.0;
 }
