@@ -1,0 +1,565 @@
+.phone_box {
+    background-image: url(images/Home.png);
+    width: 375px;
+    height: 812px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    background-position: -152px -100px;
+    z-index: -30;
+}
+
+.background_color {
+    box-shadow: 0px 50px 200px rgba(74.80885058641434, 111.36010006070137, 150.87499290704727, 0.5);
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(228.4374949336052, 255, 250.21874696016312, 1) 17.43624657392502%, rgba(217.8125050663948, 235.84281116724014, 255, 1) 73.35760593414307%, rgba(255, 255, 255, 1) 100%);
+    width: 375px;
+    height: 812px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.date_text {
+    color: rgba(0, 0, 0, 1);
+    width: 244px;
+    height: 63px;
+    position: absolute;
+    left: 65px;
+    top: 27px;
+    font-family: Nunito;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: px;
+}
+
+.hazard_text {
+    color: rgba(0, 0, 0, 1);
+    width: 180px;
+    height: 63px;
+    position: absolute;
+    left: 55px;
+    top: 180px;
+    font-family: Playfair Display;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: px;
+}
+
+.wind_1 {
+    background-image: url(images/wind.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 20px;
+    top: 265px;
+}
+
+.yellow_flag {
+    background-image: url(images/yellow_flag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+.rectangle {
+    height: 200px;
+    width: 2px;
+    position: absolute;
+    left: 235px;
+    top: 75px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.rectangle_2 {
+    height: 2px;
+    width: 120px;
+    position: absolute;
+    left: 30px;
+    top: 170px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.tide_text {
+    color: rgba(0, 0, 0, 1);
+    width: 150px;
+    height: 171px;
+    position: absolute;
+    left: 235px;
+    top: 75px;
+    font-family: Nunito;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.beach_text_1 {
+    color: rgba(0, 0, 0, 1);
+    width: 150px;
+    height: 171px;
+    position: absolute;
+    left: 20px;
+    top: 325px;
+    font-family: Playfair Display;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.beach_text_2 {
+    color: rgba(0, 0, 0, 1);
+    width: 150px;
+    height: 171px;
+    position: absolute;
+    left: 20px;
+    top: 520px;
+    font-family: Playfair Display;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.umbrella_1 {
+    background-image: url(images/umbrella.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 140px;
+    top: 325px;
+}
+
+.line_wrapper_1 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 200px;
+    top: 325px;
+}
+
+.buoy_1 {
+    background-image: url(images/bx-buoy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.umbrella_2 {
+    background-image: url(images/umbrella.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 150px;
+    top: 381px;
+}
+
+.umbrella_3 {
+    background-image: url(images/umbrella.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 145px;
+    top: 437px;
+}
+
+.location_pin {
+    background-image: url(images/bx-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35.000389099121094px;
+    height: 35.00038528442383px;
+    position: absolute;
+    left: 20px;
+    top: 480px;
+}
+
+.pier_box {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.6200000047683716);
+    width: 229px;
+    height: 32px;
+    color: rgba(0, 0, 0, 1);
+    width: 200px;
+    height: 32px;
+    position: absolute;
+    left: 85px;
+    top: 480px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.umbrella_4 {
+    background-image: url(images/umbrella.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 135px;
+    top: 520px;
+}
+
+.umbrella_5 {
+    background-image: url(images/umbrella.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 130px;
+    top: 576px;
+}
+
+.umbrella_6 {
+    background-image: url(images/umbrella.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 140px;
+    top: 632px;
+}
+
+.umbrella_7 {
+    background-image: url(images/umbrella.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25.000389099121094px;
+    height: 25.00038528442383px;
+    position: absolute;
+    left: 150px;
+    top: 688px;
+}
+
+.navigation_bar_wrapper {
+    width: 392px;
+    height: 46px;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+}
+
+.battery {
+    width: 24.32803726196289px;
+    height: 11.333333015441895px;
+    position: absolute;
+    left: 353.33331298828125px;
+    top: 17.33333396911621px;
+}
+
+.battery_1 {
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.4000000059604645;
+    width: 1.328037977218628px;
+    height: 4px;
+    position: absolute;
+    left: 23px;
+    top: 3.666666030883789px;
+}
+
+.battery_2 {
+    background-color: rgba(0, 0, 0, 1);
+    width: 18px;
+    height: 7.333333492279053px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-top-left-radius: 1.3333333730697632px;
+    border-top-right-radius: 1.3333333730697632px;
+    border-bottom-left-radius: 1.3333333730697632px;
+    border-bottom-right-radius: 1.3333333730697632px;
+}
+
+.wifi_signal {
+    background-image: url(images/wifi.jpg);
+    width: 16.028411865234375px;
+    height: 11.5px;
+    position: absolute;
+    left: 330.3253479003906px;
+    top: 18.118431091308594px;
+}
+
+.cellular_bars {
+    background-image: url(images/cellular.jpg);
+    width: 17.770660400390625px;
+    height: 11.15151596069336px;
+    position: absolute;
+    left: 307.3280029296875px;
+    top: 18.469697952270508px;
+}
+
+.time_wrapper {
+    width: 54px;
+    height: 21px;
+    position: absolute;
+    left: 21px;
+    top: 7.3333001136779785px;
+}
+
+.time_text {
+    color: rgba(0, 0, 0, 1);
+    width: 54px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: -0.30000001192092896;
+}
+
+.home_wrapper {
+    width: 43px;
+    height: 37px;
+    position: absolute;
+    left: 24px;
+    top: 748px;
+}
+
+.home {
+    background-image: url(images/home.jpg);
+    width: 35.83256530761719px;
+    height: 30.83363914489746px;
+    /* max-width:20%;
+	max-height:20%; */
+    position: absolute;
+    left: 3.5837154388427734px;
+    top: 3.083024501800537px;
+}
+
+.file_wrapper {
+    width: 47px;
+    height: 45.081634521484375px;
+    position: absolute;
+    left: 304px;
+    top: 743px;
+}
+
+.file {
+    background-image: url(images/file.jpg);
+    width: 39.16666793823242px;
+    height: 33.81122589111328px;
+    position: absolute;
+    left: 3.9166667461395264px;
+    top: 5.635203838348389px;
+}
+
+.umbrella_wrapper {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 118px;
+    top: 748px;
+}
+
+.umbrella {
+    background-image: url(images/umbrella.jpg);
+    width: 35.000389099121094px;
+    height: 35.00038528442383px;
+    position: absolute;
+    left: 0px;
+    top: -0.00032290659146383405px;
+}
+
+.sun_wrapper {
+    width: 46px;
+    height: 47px;
+    position: absolute;
+    left: 217px;
+    top: 742px;
+}
+
+.sun {
+    background-image: url(images/sun.jpg);
+    width: 38.333335876464844px;
+    height: 39.16666793823242px;
+    position: absolute;
+    left: 3.8294873237609863px;
+    top: 3.9166667461395264px;
+}
+
+.card_wrapper_1 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 10px;
+    top: 55px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card_wrapper_2 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 85px;
+    top: 55px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card_wrapper_3 {
+    width: 59px;
+    height: 108px;
+    position: absolute;
+    left: 160px;
+    top: 55px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card_wrapper_1_time {
+    color: rgba(0, 0, 0, 1);
+    width: 35.236114501953125px;
+    height: 19.488723754882812px;
+    position: absolute;
+    left: 12.291666030883789px;
+    top: 8.932330131530762px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.card_wrapper_1_degree {
+    color: rgba(0, 0, 0, 1);
+    width: 37.08571243286133px;
+    height: 16.2406005859375px;
+    position: absolute;
+    left: 10.957144737243652px;
+    top: 79.43225860595703px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.sunny {
+    width: 35px;
+    height: 35px;
+    background-image: url(images/sunny.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 10px;
+    top: 38px;
+}
+
+.card_wrapper_2_time {
+    color: rgba(0, 0, 0, 1);
+    width: 35.236114501953125px;
+    height: 19.488723754882812px;
+    position: absolute;
+    left: 12.291666030883789px;
+    top: 8.932330131530762px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.card_wrapper_2_degree {
+    color: rgba(0, 0, 0, 1);
+    width: 37.08571243286133px;
+    height: 16.2406005859375px;
+    position: absolute;
+    left: 10.957144737243652px;
+    top: 79.43225860595703px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.cloudy {
+    width: 35px;
+    height: 35px;
+    background-image: url(images/cloudy.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 10px;
+    top: 38px;
+}
+
+.card_wrapper_3_time {
+    color: rgba(0, 0, 0, 1);
+    width: 35.236114501953125px;
+    height: 19.488723754882812px;
+    position: absolute;
+    left: 12.291666030883789px;
+    top: 8.932330131530762px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.card_wrapper_3_degree {
+    color: rgba(0, 0, 0, 1);
+    width: 37.08571243286133px;
+    height: 16.2406005859375px;
+    position: absolute;
+    left: 10.957144737243652px;
+    top: 79.43225860595703px;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.drizzle {
+    width: 35px;
+    height: 35px;
+    background-image: url(images/drizzle.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 10px;
+    top: 38px;
+}
