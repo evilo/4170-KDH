@@ -71,6 +71,8 @@
 }
 .wifi_signal { 
 	background-image: url(images/wifi.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
 	width:16.028411865234375px;
 	height:11.5px;
 	position:absolute;
@@ -79,6 +81,8 @@
 }
 .cellular_bars { 
 	background-image: url(images/cellular.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
 	width:17.770660400390625px;
 	height:11.15151596069336px;
 	position:absolute;
@@ -115,11 +119,16 @@
 	background-image: url(images/home.jpg);
 	width:35.83256530761719px;
 	height:30.83363914489746px;
-	/* max-width:20%;
-	max-height:20%; */
+	background-repeat: no-repeat;
+	background-size: contain;
+	/*max-width:100%;*/
+	/*max-height:100%;*/
+	/*min-width: 100%;*/
+	/*min-height: 100%;*/
 	position:absolute;
-	left:3.5837154388427734px;
-	top:3.083024501800537px;
+	/*left:3.5837154388427734px;*/
+	/*top:3.083024501800537px;*/
+	/*object-fit: contain;*/
 }
 .file_wrapper { 
 	width:47px;
@@ -130,6 +139,8 @@
 }
 .file { 
 	background-image: url(images/file.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
 	width:39.16666793823242px;
 	height:33.81122589111328px;
 	position:absolute;
@@ -145,6 +156,8 @@
 }
 .umbrella { 
 	background-image: url(images/umbrella.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
 	width:35.000389099121094px;
 	height:35.00038528442383px;
 	position:absolute;
@@ -160,6 +173,8 @@
 }
 .sun { 
 	background-image: url(images/sun.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
 	width:38.333335876464844px;
 	height:39.16666793823242px;
 	position:absolute;
